@@ -1,0 +1,58 @@
+import type { FrameStyle } from '@/types'
+
+export const FRAME_STYLES: FrameStyle[] = [
+  {
+    id: 'classic-white',
+    name: 'Classic White',
+    background: '#FFFFFF',
+    borderColor: '#E5E7EB',
+    textColor: '#111827',
+    accentColor: '#8B5CF6',
+    preview: 'linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 100%)',
+  },
+  {
+    id: 'minimal-black',
+    name: 'Minimal Black',
+    background: '#111111',
+    borderColor: '#2A2A2A',
+    textColor: '#FFFFFF',
+    accentColor: '#A78BFA',
+    preview: 'linear-gradient(180deg, #1A1A1A 0%, #000000 100%)',
+  },
+  {
+    id: 'pastel-pink',
+    name: 'Pastel Pink',
+    background: '#FDF2F8',
+    borderColor: '#FBCFE8',
+    textColor: '#831843',
+    accentColor: '#EC4899',
+    preview: 'linear-gradient(180deg, #FDF2F8 0%, #FCE7F3 100%)',
+  },
+  {
+    id: 'soft-blue',
+    name: 'Soft Blue',
+    background: '#EFF6FF',
+    borderColor: '#BFDBFE',
+    textColor: '#1E3A8A',
+    accentColor: '#3B82F6',
+    preview: 'linear-gradient(180deg, #EFF6FF 0%, #DBEAFE 100%)',
+  },
+  {
+    id: 'vintage',
+    name: 'Vintage',
+    background: '#F5EFE6',
+    borderColor: '#D9C7A8',
+    textColor: '#5C4630',
+    accentColor: '#B08968',
+    preview: 'linear-gradient(180deg, #F5EFE6 0%, #EAE0CC 100%)',
+  },
+  {
+    id: 'film-style',
+    name: 'Film Style',
+    background: '#0D0D0D',
+    borderColor: '#3F3F3F',
+    textColor: '#F5F5F5',
+    accentColor: '#FACC15',
+    preview: 'linear-gradient(180deg, #262626 0%, #0D0D0D 100%)',
+  },
+]
